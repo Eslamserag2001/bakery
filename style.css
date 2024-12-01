@@ -1,0 +1,300 @@
+body {
+    margin: 0%;
+    
+    font-size: 17px;
+    font-weight: 500px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+h2{font-size: x-large;
+}
+
+.heder {
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    font-size: 150%;
+    height: 110vh;
+
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    position: fixed;
+    top: 0px;
+
+}
+
+.a-link {
+    display: inline-block;
+    width: 45%;
+    margin-left: 50px;
+
+}
+
+.a-link ul li {
+    display: inline-block;
+    margin-left: auto;
+
+
+}
+
+.a-link ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+.logo {
+    width: 50%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 30%;
+    margin-left: 35px;
+}
+
+.text {
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+    color: #ecf8ff;
+}
+
+.text .btn1 {
+    background-color: burlywood;
+    color: #ecf8ff;
+    height: 60px;
+    width: 135px;
+    border: .5px;
+    border-radius: 7px;
+    font-size: 19px;
+    margin: 15px;
+    transition: all .5s;
+}
+
+.text .btn2 {
+    background-color: rgba(222, 184, 135, 0);
+    color: #ecf8ff;
+    height: 60px;
+    width: 135px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    font-size: 19px;
+    transition: all .5s;
+
+}
+.text .btn1:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+.text .btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.contaner {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.contaner .photo {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.contaner .photo img {
+    width: 80%;
+}
+
+.contaner .content {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.contaner .content ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 550px;
+    font-style: italic;
+    /* display: inline-block; */
+    line-height: normal;
+    text-align: left;
+    padding: 2px;
+
+}
+
+.contaner .content ul li img {
+    width:7%;
+    border-radius: 50%;
+    outline: 1px solid rgb(153, 153, 153);
+     display: inline-block; 
+     margin: 1px;
+}
+
+.located {
+    background-color: rgb(205, 233, 236);
+    text-align: center;
+    display: flex;
+    height: 80vh;
+    padding-top: 40px;
+}
+
+.located .photo {
+    width: 48%;
+    display: inline-block;
+    padding: 30px;
+}
+
+.located .photo img {
+    width: 90%;
+
+}
+
+.located .content {
+    width: 48%;
+    display: inline-block;
+    padding-top: 100px;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+
+.book {
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+    line-height: 29px;
+}
+
+.book .item {
+    float: left;
+
+    width: 32%;
+    margin: 8px 8px 15px 8px;
+
+}
+
+.book .item img {
+    width: 98%;
+}
+
+.info {
+background-color:#f8f8f8;   
+
+}
+
+.info-text {
+    width: 50%;
+    font-size: 21px;
+    font-weight: 600px;
+    float: left;
+   
+}
+.info-text dl dd img {
+    width: 7%;
+    background-color: tan;
+    border-radius: 50%;
+}
+.info-map{
+    height: 500px;
+    
+}
+
+.info-map img{
+    width: 40%;
+
+
+}
+.contend{
+    background-color:#403d38;
+    
+}
+.contend .text1{
+    color: #969696;
+    width: 25%;
+    float: left;
+    line-height: 25px;
+}
+.contend .text2{
+    color: #969696;
+    width: 25%;
+    float: left;
+    line-height: 35px;
+   
+}
+.contend .text2 ul li{
+    list-style-type: georgian;
+}
+.contend .text3{
+    color: #969696;
+    width: 25%;
+    float: left;
+    line-height: 34px;
+}
+.contend .text3 ul li{
+    list-style-type: none;
+}
+.text4{
+    background-image: url(./images/contact-details-map.png);
+    color: #969696;
+    float: left;
+    width: 25%;
+    background-size: contain;
+    background-position: center center;
+}
+.text4 ul li u img{
+    width: 25px;
+    background-color: chocolate;
+    border-radius: 50%;
+    
+    
+}
+.text4 ul li{
+    list-style-type: none;
+}
+
+
+
+.clr{
+    clear: both;
+}
+.bakery{
+    width: 100%;
+    color: #969696;
+    background-color:#363430;
+    text-align: center;
+}
+
+
+.bakery .log img{
+    width: 50px;
+    border: 2px  solid #969696;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
