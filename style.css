@@ -140,11 +140,12 @@ h2{font-size: x-large;
 }
 
 .located {
-    background-color: rgb(205, 233, 236);
+    background-color: rgb(245, 254, 255);
     text-align: center;
     display: flex;
     height: 80vh;
     padding-top: 40px;
+    
 }
 
 .located .photo {
